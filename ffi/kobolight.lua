@@ -26,7 +26,7 @@ function kobolight_mt.__index:toggle()
 		self.savedBrightness = self.brightness
 		self:setBrightness(0)
 	else
-		self:setBrightness(self.savedBrightness or 0)
+		self:setBrightness(self.savedBrightness or 1)
 	end
 end
 
